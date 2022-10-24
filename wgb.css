@@ -1,0 +1,19 @@
+.selectedImage{
+    border-style: solid;
+    padding: 7px;
+}
+.unSelectedImage{
+    border-style: none;
+    padding: 10px;
+}
+.image{
+    margin: 100px;
+    width: min-content;
+    height:500px;
+    border-width: 3px;
+    border-color: darkblue;
+    border-radius: 8px;
+}
+.hide{
+    opacity:50%;
+}
