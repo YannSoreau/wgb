@@ -1,18 +1,22 @@
-.selectedImage{
+.selectedItem{
     border-style: solid;
     padding: 7px;
 }
-.unSelectedImage{
+.unSelectedItem{
     border-style: none;
     padding: 10px;
 }
 .image{
-    margin: 100px;
-    width: min-content;
+    width: auto;
     height:500px;
     border-width: 3px;
     border-color: darkblue;
     border-radius: 8px;
+    position:absolute;
+    cursor: grab;
+}
+.imageOnTheMove{
+    cursor: grabbing;
 }
 .hide{
     opacity:50%;
