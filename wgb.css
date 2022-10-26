@@ -7,8 +7,6 @@
     padding: 10px;
 }
 .image{
-    width: auto;
-    height:500px;
     border-width: 3px;
     border-color: darkblue;
     border-radius: 8px;
