@@ -16,7 +16,15 @@ function handleWgbImages(){
         image.setAttribute("draggable", "true");
         image.addEventListener("dragstart", moveImageStart, false);
         image.addEventListener("dragend", moveImageEnd, false);
+        addResizeCorner(image);
     }
+}
+
+function addResizeCorner(item){
+  let el = document.createElement("div");
+  el.style.top=item.style.top+item.style.height;
+  el.classList.add("corner");
+  item.parentElement.appendChild(el);
 }
 
 function handleWgbCanvas(){

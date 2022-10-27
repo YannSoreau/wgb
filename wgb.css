@@ -23,3 +23,12 @@
     left:0px;
     z-index: 1000;
 }
+.corner{
+    height:10px;
+    width:10px;
+    border:3px solid white;
+    background-color: while;
+    opacity:50%;
+    border-radius: 10px;
+    cursor:se-resize;
+}
