@@ -1,7 +1,4 @@
 .image{
-    border-width: 3px;
-    border-color: darkblue;
-    border-radius: 8px;
     position:absolute;
     cursor: grab;
     z-index: 0;
@@ -26,9 +23,10 @@
 .corner{
     height:10px;
     width:10px;
-    border:3px solid white;
-    background-color: while;
+    border:1px solid white;
+    background-color: grey;
     opacity:50%;
     border-radius: 10px;
     cursor:se-resize;
+    position:relative;
 }

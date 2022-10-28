@@ -21,8 +21,10 @@ function handleWgbImages(){
 }
 
 function addResizeCorner(item){
+  rect = item.getBoundingClientRect();
   let el = document.createElement("div");
-  el.style.top=item.style.top+item.style.height;
+  el.style.top=rect.bottom;
+  el.style.left=rect.right;
   el.classList.add("corner");
   item.parentElement.appendChild(el);
 }
